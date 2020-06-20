@@ -1,0 +1,17 @@
+{
+	"version": 2,
+	"public": false,
+	"name": "vuepress-base",
+	"alias": ["vuepress-base.now.sh"],
+	"github": { "enabled": true },
+	"builds": [
+		{
+			"src": "docs/.vuepress/dist/**",
+			"use": "@now/static"
+		}
+	],
+	"routes": [
+		{ "src": "/docs(.*)", "dest": "/docs/.vuepress/dist$1" },
+		{ "src": "/(.*)", "dest": "/docs/.vuepress/dist$1" }
+	]
+}
