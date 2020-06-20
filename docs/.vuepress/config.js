@@ -69,6 +69,14 @@ module.exports = {
 		'@vuepress/plugin-back-to-top',
 		'@vuepress/plugin-medium-zoom',
 		'@vuepress/active-header-links',
-		'vuepress-plugin-export'
+		// 'vuepress-plugin-export',
+		[
+			'@snowdog/vuepress-plugin-pdf-export',
+			{
+				puppeteerLaunchOptions: {
+					args: ['--no-sandbox', '--disable-setuid-sandbox']
+				}
+			}
+		]
 	]
 };
