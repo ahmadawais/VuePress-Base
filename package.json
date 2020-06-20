@@ -1,0 +1,24 @@
+{
+	"name": "vuepress-docs",
+	"version": "0.0.1",
+	"description": "dsc",
+	"authors": {
+		"name": "Ahmad Awais",
+		"email": "me@AhmadAwais.com"
+	},
+	"repository": "https://github.com/AhmadAwais/vuepress-docs",
+	"scripts": {
+		"start": "vuepress dev docs",
+		"dev": "vuepress dev docs",
+		"build": "vuepress build docs"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"vuepress": "^1.3.1",
+		"@vuepress/plugin-back-to-top": "^1.3.1",
+		"@vuepress/plugin-medium-zoom": "^1.3.1"
+	},
+	"dependencies": {
+		"@vuepress/plugin-active-header-links": "^1.5.2"
+	}
+}

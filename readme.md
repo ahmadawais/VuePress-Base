@@ -1,3 +1,5 @@
-# VuePress-Base 
+# VuePress Documentation Base
 
- > VuePress Docs site base with Shades of Purple set up.
+> Custom base for VuePress based documentation sites for my projects.
+
+This is a work-in-progress repository.
